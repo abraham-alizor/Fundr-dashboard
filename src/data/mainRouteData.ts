@@ -1,14 +1,4 @@
-import {
-	Analytics,
-	Balances,
-	Checkout,
-	Dashboard,
-	Exchange,
-	Marketing,
-	PaymentLinks,
-	Transactions,
-	Wire,
-} from '../pages';
+import { Dashboard, Transactions } from '../pages';
 
 export const mainRoutes = [
 	{

@@ -1,14 +1,8 @@
 import {
-	ANNOUNCEMENT_BLACK,
-	ANNOUNCEMENT_RED,
 	BARCHART_BLACK,
 	BARCHART_RED,
-	CART_BLACK,
-	CART_RED,
 	EXCHANGE_BLACK,
 	EXCHANGE_RED,
-	PAYMENT_LINK_BLACK,
-	PAYMENT_LINK_RED,
 	PIE_CHART_BLACK,
 	PIE_CHART_RED,
 	TRANSACTION_BLACK,
@@ -78,32 +72,3 @@ export interface SidebarDataTypes {
 	alt?: string;
 	path: string;
 }
-
-export const acceptPayments = [
-	{
-		id: '1',
-		title: 'Checkout',
-		imageURL: CART_BLACK,
-		image_active: CART_RED,
-		alt: 'checkout...',
-		path: '/checkout',
-	},
-	{
-		id: '2',
-		title: 'Payment links',
-		imageURL: PAYMENT_LINK_BLACK,
-		image_active: PAYMENT_LINK_RED,
-		alt: 'payment...',
-		path: '/payment-links',
-	},
-];
-export const sendPayments = [
-	{
-		id: '1',
-		title: 'Wire',
-		imageURL: TRANSACTION_HORIZONTAL_BLACK,
-		image_active: TRANSACTION_HORIZONTAL_RED,
-		alt: 'wire..',
-		path: '/wire',
-	},
-];

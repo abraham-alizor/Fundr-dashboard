@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { AiOutlineMenu } from 'react-icons/ai';
-import { BELL, CHEVRON_DOWN, USER_ICON } from '../../assets';
-import Typography from '../Typography';
+import { BELL, CHEVRON_DOWN } from '../../assets';
 import { Link } from 'react-router-dom';
 
 interface header {

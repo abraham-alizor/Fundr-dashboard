@@ -1,11 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Link } from 'react-router-dom';
-import { acceptPayments, MainPages, sendPayments, SidebarDataTypes } from './SidebarData';
+import { MainPages, SidebarDataTypes } from './SidebarData';
 import { Transition } from '@headlessui/react';
 import { useLocation } from 'react-router-dom';
 import Typography from '../Typography';
-import { CHEVRON_LEFT, LOGO, QUESTION } from '../../assets';
-import Button from '../button';
 import { useMediaQuery } from '../../hooks';
 
 interface sidebarProps {

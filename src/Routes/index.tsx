@@ -1,6 +1,6 @@
 import React from 'react';
 import { DashboardLayout } from '../layouts/dashboard';
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { mainRoutes } from '../data/mainRouteData';
 import NotFound from '../pages/NotFound';
 

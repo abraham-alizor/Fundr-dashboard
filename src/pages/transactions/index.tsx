@@ -2,9 +2,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from 'react';
 import { Zoom } from 'react-reveal';
-import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
+// import { GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
 
-const columns: GridColDef[] = [
+const columns = [
 	{ field: 'id', headerName: 'ID' },
 	{ field: 'Amount', headerName: 'AMOUNT' },
 	{ field: 'lastName', headerName: 'TRANSACTION ID', width: 150 },
@@ -29,8 +29,7 @@ const columns: GridColDef[] = [
 		description: 'This column has a value getter and is not sortable.',
 		sortable: false,
 
-		valueGetter: (params: GridValueGetterParams) =>
-			`${params.row.firstName || ''} ${params.row.lastName || ''}`,
+		valueGetter: (params: any) => `${params.row.firstName || ''} ${params.row.lastName || ''}`,
 	},
 ];
 
