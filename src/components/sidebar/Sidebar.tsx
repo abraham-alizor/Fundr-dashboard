@@ -32,6 +32,7 @@ export const Sidebar = (props: sidebarProps) => {
 				<div className='h-[10vh] w-20 ml-10'>
 					<Link to='/'>
 						<img
+							alt=''
 							loading='lazy'
 							src='https://cdn.builder.io/api/v1/image/assets/TEMP/a48df62c9fd6b771bf3e02dd6d2e4b479b68ea88102eb44fd259823b27b2bbb9?apiKey=bb278f95022541509fa4b766a9320e21&'
 							className='flex-1 shrink-0 mt-5 w-full aspect-[4.17]'

@@ -135,6 +135,7 @@ function Transactions() {
 					<div className='flex gap-1.5 px-5 my-auto text-base leading-6 text-zinc-800'>
 						<div className='grow'>All Accounts</div>
 						<img
+							alt=''
 							loading='lazy'
 							src='https://cdn.builder.io/api/v1/image/assets/TEMP/3274cef3a335e38accf099a186681e3911264f5cfd6ccdb61dfcdf0b76f74d9c?apiKey=bb278f95022541509fa4b766a9320e21&'
 							className='my-auto aspect-square w-[18px]'
@@ -142,6 +143,7 @@ function Transactions() {
 					</div>
 					<div className='flex lg:hidden  gap-2 justify-between px-4 py-2.5 text-sm leading-5 bg-white rounded-lg border border-solid shadow-sm border-[color:var(--Gray-300,#D0D5DD)] text-slate-700'>
 						<img
+							alt=''
 							loading='lazy'
 							src='https://cdn.builder.io/api/v1/image/assets/TEMP/4460f594a206f4aa7ae7d4d26b6d7db09bc76a41b0bcd48ef05669281c86c1c1?apiKey=bb278f95022541509fa4b766a9320e21&'
 							className='w-5 aspect-square'
@@ -153,6 +155,7 @@ function Transactions() {
 							<div className='grow self-start mt-4  text-sm '>Select Date Range:</div>
 							<div className='flex  gap-1 lg:gap-3 justify-between items-center pl-4 pr-8 py-2.5 text-sm leading-5 bg-white rounded-lg border border-solid border-[color:var(--Border-bd-dark,#DADAE7)]'>
 								<img
+									alt=''
 									loading='lazy'
 									src='https://cdn.builder.io/api/v1/image/assets/TEMP/6a2c7627fea77c1405e128a4dbaaf8118b7161d7c08dfbf34a191620532abbf0?apiKey=bb278f95022541509fa4b766a9320e21&'
 									className='self-start w-5 aspect-square'
@@ -162,6 +165,7 @@ function Transactions() {
 						</div>
 						<div className='hidden lg:flex gap-2 justify-between pl-4 pr-8 py-2.5 text-sm leading-5 bg-white rounded-lg border border-solid shadow-sm border-[color:var(--Gray-300,#D0D5DD)] text-slate-700'>
 							<img
+								alt=''
 								loading='lazy'
 								src='https://cdn.builder.io/api/v1/image/assets/TEMP/4460f594a206f4aa7ae7d4d26b6d7db09bc76a41b0bcd48ef05669281c86c1c1?apiKey=bb278f95022541509fa4b766a9320e21&'
 								className='w-5 aspect-square'

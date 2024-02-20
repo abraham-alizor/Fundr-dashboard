@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { AiOutlineMenu } from 'react-icons/ai';
-import { CHEVRON_DOWN, USER_ICON } from '../../assets';
+import { BELL, CHEVRON_DOWN, USER_ICON } from '../../assets';
 import Typography from '../Typography';
 import { Link } from 'react-router-dom';
 
@@ -30,8 +30,7 @@ function Header(props: header) {
 						to='/'
 						className={`transition ease-in-out delay-150 py-2 px-3 w-16 flex justify-between items-center  hover:-translate-y-1 hover:scale-110  duration-300 text-xs `}
 					>
-						<Typography textStyle='text-[14px]'>En</Typography>
-						<img src={CHEVRON_DOWN} alt='user' className='w-4 h-4' />
+						<img src={BELL} alt='user' className='w-6 h-6' />
 					</Link>
 					<Link
 						to='/'
