@@ -1,4 +1,3 @@
-import React from 'react';
 import { buttonPropTypes } from '../../types';
 
 function Button(props: buttonPropTypes) {

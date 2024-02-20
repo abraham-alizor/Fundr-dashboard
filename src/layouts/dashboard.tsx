@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useMediaQuery } from '../hooks';
 import { Sidebar } from '../components/sidebar';
 import Header from '../components/sidebar/Header';

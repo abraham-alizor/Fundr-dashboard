@@ -1,4 +1,3 @@
-import React, { PureComponent } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { Zoom } from 'react-reveal';
 import { useMediaQuery } from '../../hooks';

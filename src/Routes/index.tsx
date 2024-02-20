@@ -1,4 +1,3 @@
-import React from 'react';
 import { DashboardLayout } from '../layouts/dashboard';
 import { Route, Routes } from 'react-router-dom';
 import { mainRoutes } from '../data/mainRouteData';

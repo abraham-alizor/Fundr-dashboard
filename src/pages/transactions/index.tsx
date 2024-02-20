@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Zoom } from 'react-reveal';
 // import { GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
 
